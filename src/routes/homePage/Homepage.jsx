@@ -1,8 +1,9 @@
 import React from 'react'
 import './homePage.scss'
-import SearchBar from '../../components/SearchBar/SearchBar'
+import SearchBar from '../../components/searchBar/SearchBar'
 const Homepage = () => {
   return (
+
  <div className="homePage">
     <div className="textContainer">
       <div className="wrapper">
@@ -13,7 +14,7 @@ const Homepage = () => {
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima ipsam quae assumenda unde, accusamus atque ab quisquam corrupti nobis mollitia quis similique rem eos nihil neque dolorum sint consequuntur eveniet!
         </p>
-        <SearchBar/>
+        <SearchBar></SearchBar>
         <div className="boxes">
             <div className="box">
                 <h1>16+</h1>
