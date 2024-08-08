@@ -5,6 +5,7 @@ import SinglePage from './routes/singlePage/singlePage'
 
 import './routes/homePage/homePage.scss'
 import Layout from './routes/layout/layout'
+import ProfilePage from './routes/profilePage/profilePage'
 
 function App() {
   const router = createBrowserRouter([
@@ -15,6 +16,10 @@ function App() {
         { path: '/', element: <Homepage /> },
         { path: 'list', element: <ListPage /> },
         { path: ':id', element: <SinglePage /> },
+        {
+          path:"/profile",
+          element:<ProfilePage/>
+        }
       ],
     },
   ]);
